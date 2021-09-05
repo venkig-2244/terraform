@@ -1,12 +1,6 @@
-############################
-# Upgrad servers
-############################
 [jenkins]
-54.88.66.12
+172.31.46.45 ansible_user=ubuntu ansible_ssh_private_key_file=upgradvenky.pem
 
-[app]
-44.193.211.74
-
-[bastion]
-54.91.246.85
+[app] 
+172.31.95.142 ansible_user=ubuntu ansible_ssh_private_key_file=upgradvenky.pem
 
